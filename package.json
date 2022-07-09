@@ -1,0 +1,32 @@
+{
+  "name": "wassup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.6",
+    "autoprefixer": "^10.4.7",
+    "framer-motion": "^6.4.2",
+    "next": "12.2.0",
+    "next-auth": "^4.7.0",
+    "postcss": "^8.4.14",
+    "pusher-js": "^7.1.1-beta",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.1.5",
+    "react-toastify": "^9.0.5",
+    "tailwindcss": "^3.1.4"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0"
+  }
+}
