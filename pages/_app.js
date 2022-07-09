@@ -1,5 +1,5 @@
-import NavBar from '../Components/NavBar'
 import '../styles/globals.css'
+import NavBar from '../Components/NavBar'
 import { SessionProvider } from "next-auth/react"
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Triangle } from  'react-loader-spinner'
