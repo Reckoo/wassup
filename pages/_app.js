@@ -13,7 +13,7 @@ export default function MyApp({
 }) {
     const router = useRouter();
     const [loading, setLoading] = useState(false);
-
+      console.log("Working");
     useEffect(() => {
       router.events.on('routeChangeStart', () => setLoading(true));
       router.events.on('routeChangeComplete', () => setLoading(false));

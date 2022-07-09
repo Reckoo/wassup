@@ -2,7 +2,6 @@ import React from "react";
 
 import { signIn } from "next-auth/react";
 
-      console.log("Hello");
 function Login() {
   return (
     <div className="h-screen pt-2 font-mono z-10">

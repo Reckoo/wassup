@@ -10,7 +10,6 @@ export default function Home({ fetchedData }) {
   // State for post data
   const [data, setData] = useState([]);
 
-
   //Using pusher for Realtime update of posts
   const pusher = new Pusher("2aff0481a48c3064e169", {
     cluster: "us2",
