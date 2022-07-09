@@ -31,7 +31,7 @@ export default function MyApp({
             <Triangle height="100" width="100" color="red" ariaLabel="loading" />
           </div>  
           )
-        }
+        } 
     
         </div>
 
