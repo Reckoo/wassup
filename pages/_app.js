@@ -13,8 +13,6 @@ export default function MyApp({
 }) {
     const router = useRouter();
     const [loading, setLoading] = useState(false);
-      console.log("Working");
-      console.log(process.env.NEXTAUTH_URL);
     useEffect(() => {
       router.events.on('routeChangeStart', () => setLoading(true));
       router.events.on('routeChangeComplete', () => setLoading(false));
