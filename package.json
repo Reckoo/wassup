@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
+    },
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.6",
     "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
     "framer-motion": "^6.4.2",
     "next": "12.2.0",
     "next-auth": "^4.7.0",

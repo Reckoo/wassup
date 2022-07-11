@@ -6,6 +6,7 @@ import Login from "../Components/Login";
 import { useEffect, useState } from "react";
 import Pusher from "pusher-js";
 
+
 export default function Home({ fetchedData }) {
   // State for post data
   const [data, setData] = useState([]);
