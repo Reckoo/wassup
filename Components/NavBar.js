@@ -5,14 +5,12 @@ import { motion } from "framer-motion";
 function NavBar() {
   return (
     //Using Framer motion for the animations
-    // <motion.div
-    //   className="Nav font-mono h-14 flex items-center justify-around sticky top-0 border-b border-b-slate-/10 p-2 bg-white z-20"
-    //   initial={{ opacity: 0.5, y: -100 }}
-    //   animate={{ opacity: 1, y: 0 }}
-    //   transition={{ delay: 0.4 }}
-    // >
-    <div className="Nav font-mono h-14 flex items-center justify-around sticky top-0 border-b border-b-slate-/10 p-2 bg-white z-20">
-
+    <motion.div
+      className="Nav font-mono h-14 flex items-center justify-around sticky top-0 border-b border-b-slate-/10 p-2 bg-white z-20"
+      initial={{ opacity: 0.5, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.4 }}
+    >
       {/* Logo for the app */}
       <div className="logos">
         <Link href={"/"}>
@@ -40,8 +38,7 @@ function NavBar() {
           <AddBoxIcon className="cursor-pointer" />
         </Link>
       </div>
-      </div>
-    // </motion.div>
+    </motion.div>
   );
 }
 
