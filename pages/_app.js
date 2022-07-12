@@ -27,7 +27,7 @@ export default function MyApp({
         <Component {...pageProps} />
         {
           loading && (
-            <div className="absolute top-[38%] left-[45%]">
+            <div className="absolute top-[40%] md:top-[38%] left-[40%] md:left-[45%]">
             <Triangle height="100" width="100" color="red" ariaLabel="loading" />
           </div>  
           )

@@ -61,8 +61,8 @@ function Create() {
   return (
     <div className="h-screen pt-2 font-mono z-10">
       {session ? (
-        <form onSubmit={(e) => submitHandler(e)} className={loading ? "opacity-[0.3]" : "" + "relative"}>
-          <div className="bluredBack backdrop-blur-sm bg-white/30 w-[40vw] h-[80vh] flex flex-col items-center mx-auto mt-3 space-y-6 rounded p-5">
+            <form onSubmit={(e) => submitHandler(e)} className={loading ? "opacity-[0.3]" : "" + "relative"}>
+        <div className="bluredBack backdrop-blur-sm bg-white/30 w-[40vw] h-[80vh] flex flex-col items-center mx-auto mt-3 space-y-6 rounded p-5">
             <div className="inputs w-[65vw] h-[80vh] flex flex-col items-center justify-between ">
               <div className="text-center h-[35vh] w-[18vw] flex mb-7">
                 <img
@@ -105,19 +105,19 @@ function Create() {
                 <button
                   type="submit"
                   className="bg-blue-400 py-1.5 rounded px-6 hover:scale-110 duration-200 text-base hover:text-slate-200"
-                >
+                  >
                   Share
                 </button>
               </span>
               <span>
-                <button onClick={() => router.push('/')} className="ml-3 bg-red-500 px-6 py-1.5 rounded hover:scale-110 duration-200 text-base hover:text-slate-200">
+                <button type="button" onClick={() => router.push('/')} className="ml-3 bg-red-500 px-6 py-1.5 rounded hover:scale-110 duration-200 text-base hover:text-slate-200">
                   Cancel
                 </button>
               </span>
             </div>
           </div>
+                  </form>
       
-        </form>
       ) : (
         <Login />
       )}
@@ -136,7 +136,7 @@ pauseOnHover
 />
             {/* //Loading animation */}
       {loading && (
-        <div className="absolute top-[38%] left-[45%]">
+        <div className="absolute top-[40%] left-[40%] md:top-[38%] md:left-[45%]">
           <MutatingDots height="100" width="100" color="red" ariaLabel="loading" />
         </div>
       )}
