@@ -22,7 +22,7 @@ export default function MyApp({
 
   return (
     <SessionProvider session={session}>
-        <div className={`${loading ? 'opacity-[0.4]' : ""}`}>
+        <div className={loading ? 'opacity-[0.4]' : ""}>
          <NavBar />
         <Component {...pageProps} />
         {

@@ -21,13 +21,13 @@ function PostCard({
 
   return (
     //Using Framer motion for the animations
-    <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    viewport={{ once: true }}
-    transition={{ delay: 0.1 }}
-    exit={{ opacity: 0 }}
-    >
+    // <motion.div
+    // initial={{ opacity: 0 }}
+    // whileInView={{ opacity: 1 }}
+    // viewport={{ once: true }}
+    // transition={{ delay: 0.1 }}
+    // exit={{ opacity: 0 }}
+    // >
     <div className="w-[85vw] sm:w-[65vw] md:w-[55vw] card bg-white lg:w-[30vw]  h-fit">
       {/* User Informations */}
       <div className="border flex h-20 items-center relative">
@@ -57,7 +57,7 @@ function PostCard({
         </div>
       )}
     </div>
-    </motion.div>
+    // </motion.div>
   );
 }
 

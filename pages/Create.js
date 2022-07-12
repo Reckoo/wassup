@@ -61,7 +61,7 @@ function Create() {
   return (
     <div className="h-screen pt-2 font-mono z-10">
       {session ? (
-        <form onSubmit={(e) => submitHandler(e)} className={`${loading ? "opacity-[0.3]" : ""} relative`}>
+        <form onSubmit={(e) => submitHandler(e)} className={loading ? "opacity-[0.3]" : "" + "relative"}>
           <div className="bluredBack backdrop-blur-sm bg-white/30 w-[40vw] h-[80vh] flex flex-col items-center mx-auto mt-3 space-y-6 rounded p-5">
             <div className="inputs w-[65vw] h-[80vh] flex flex-col items-center justify-between ">
               <div className="text-center h-[35vh] w-[18vw] flex mb-7">
